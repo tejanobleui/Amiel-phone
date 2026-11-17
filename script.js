@@ -205,8 +205,8 @@ function dAgo(days, hours, minutes) {
   return date.getTime();
 }
 const SEED = [
-  { t: dAgo(0, 20, 12), x: "Oyts natatae ako tagal naman matapos\n\n\n- Iww bahu\n" },  
-  { t: dAgo(0, 9, 40), x: "Cat names\n\n Kimchi \n Tokyo Athena \nPangpu (Pangpulutan), \n Kitty Duterte\nDumbledore (wow)" },
+  { t: dAgo(0, 20, 12), x: "Oyts natatae ako tagal naman matapos\n\n\nIww bahu" },  
+  { t: dAgo(0, 9, 40), x: "Cat names\n\nKimchi\nTokyo Athena\nPangpu(Pangpulutan),\nKitty Duterte\nDumbledore (wow)" },
   { t: dAgo(2, 21, 5), x: "To do ☑\n\n☑ hanap inspo\n☐ planning and drafting\n☐ plotting and layout ng board\n☐ architectural plans (fp, elev tas sections)\n☐ finalize boards" }, 
   { t: dAgo(4, 16, 30), x: "Hindi nagreply lol kinikilig siguro to\n\n\n" }, 
   { t: dAgo(9, 18, 45), x: "ANO O-ORDERIN\n\n\nMatcha latte seasalt\nHazelnut cappucino\nAlmond croissant\nOreo bliss donut" },
