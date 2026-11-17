@@ -205,12 +205,12 @@ function dAgo(days, hours, minutes) {
   return date.getTime();
 }
 const SEED = [
-  { t: dAgo(0, 20, 12), x: "Oyts natatae ako tagal naman matapos\n\n\n- Iww bahu\n }, 
+  { t: dAgo(0, 20, 12), x: "Oyts natatae ako tagal naman matapos\n\n\n- Iww bahu\n" },  
   { t: dAgo(0, 9, 40), x: "Cat names\n\n Kimchi \n Tokyo Athena \nPangpu (Pangpulutan), \n Kitty Duterte\nDumbledore (wow)" },
-  { t: dAgo(2, 21, 5), x: "To do ☑\n\n☑ hanap inspo\n☐ planning and drafting\n☐ plotting and layout ng board\n☐ architectural plans (fp, elev tas sections)\n☐ finalize boards },
-  { t: dAgo(4, 16, 30), x: "Hindi nagreply lol kinikilig siguro to\n\n\n },
+  { t: dAgo(2, 21, 5), x: "To do ☑\n\n☑ hanap inspo\n☐ planning and drafting\n☐ plotting and layout ng board\n☐ architectural plans (fp, elev tas sections)\n☐ finalize boards" }, 
+  { t: dAgo(4, 16, 30), x: "Hindi nagreply lol kinikilig siguro to\n\n\n" }, 
   { t: dAgo(9, 18, 45), x: "ANO O-ORDERIN\n\n\nMatcha latte seasalt\nHazelnut cappucino\nAlmond croissant\nOreo bliss donut" },
-  { t: dAgo(16, 10, 15), x: "Shake your head and let me know if you hear rocks\n\n\n },
+  { t: dAgo(16, 10, 15), x: "Shake your head and let me know if you hear rocks\n\n\n" }, 
   { t: dAgo(23, 12, 0), x: "Mga bibilhen ko na naman umay lods\n\n\n• Pencils  HB, 2B, 4B, 6B\n• Tracing paper roll\n• Bainbridge illus\n• Kneadded eraser" }
 ];
 let notes = store.get("notes3", null) || SEED.map((n, i) => ({ id: i + 1, ...n }));
