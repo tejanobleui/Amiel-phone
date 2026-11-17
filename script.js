@@ -8,7 +8,7 @@ try {
   }
 }
 catch (e) { }
-const WALL0 = "download.png" ; // Lightning Mcqueen Wallpaper
+const WALL0 = "e94f913f3a5b8383ddc6f806d2016bc1.jpg" ; // Lightning Mcqueen Wallpaper
 const SPOTIFY_PLAYLIST = "1dtnogrYRyqCUm3gy4WRoa"; // your playlist ID (open.spotify.com/playlist/ID)
 /* ================== */
 const $ = s => document.querySelector(s), $$ = s => [...document.querySelectorAll(s)];
