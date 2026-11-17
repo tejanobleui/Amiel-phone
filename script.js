@@ -212,7 +212,7 @@ const SEED = [
   { t: dAgo(9, 18, 45), x: "ANO O-ORDERIN\n\n\nMatcha latte seasalt\nHazelnut cappucino\nAlmond croissant\nOreo bliss donut" },
   { t: dAgo(16, 10, 15), x: "Shake your head and let me know if you hear rocks\n\n\n" }, 
   { t: dAgo(23, 12, 0), x: "Mga bibilhen ko na naman umay lods\n\n\n• Pencils  HB, 2B, 4B, 6B\n• Tracing paper roll\n• Bainbridge illus\n• Kneadded eraser" }
-];
+} };
 let notes = store.get("notes3", null) || SEED.map((n, i) => ({ id: i + 1, ...n }));
 let nid = null;
 const DD = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"];
