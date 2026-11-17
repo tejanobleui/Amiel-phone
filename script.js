@@ -9,7 +9,7 @@ try {
 }
 catch (e) { }
 const WALL0 = "wallpaper.png" ; // Lightning Mcqueen Wallpaper
-const SPOTIFY_PLAYLIST = "1dtnogrYRyqCUm3gy4WRoa"; // your playlist ID (open.spotify.com/playlist/ID)
+const SPOTIFY_PLAYLIST = "316eh6haa22slxk245hrb4xzoi4a"; // your playlist ID (open.spotify.com/playlist/ID)
 /* ================== */
 const $ = s => document.querySelector(s), $$ = s => [...document.querySelectorAll(s)];
 const store = { get(k, d) { try {
