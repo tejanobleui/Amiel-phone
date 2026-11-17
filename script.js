@@ -599,7 +599,7 @@ function call(n) {
 $("#cend").onclick = () => $("#calling").classList.remove("on");
 $("#pv-r").onclick = $("#pv-c").onclick = e => {
   const r = e.target.closest(".pr");
-  if (r && r.dataset.n !== "Karina Tuazon")
+  if (r && r.dataset.n !== "Kieth Amiel")
     call(r.dataset.n);
 };
 // keypad
@@ -618,7 +618,7 @@ $("#kcall").onclick = () => { if (kn) {
   kshow();
 } };
 // voicemail
-let vms = [{ n: "Ate Liza", t: dAgo(0, 16, 48), d: 12, x: "“Anong oras ka uuwi? Text mo ako, ha.”", u: 1 }, { n: "Dr. Lopez", t: dAgo(1, 10, 15), d: 21, x: "“Hello, Karina. This is Dr. Lopez reminding you about your dentist appointment. Please call back to confirm the time. Thank you.”", u: 1 }], vo = null, vp = 0, vt = null;
+let vms = [{ n: "ATE NAYEON AEGYOSAL", t: dAgo(0, 16, 48), d: 12, x: "“Bwisetka AMIEL”", u: 1 }, { n: "Mame", t: dAgo(1, 10, 15), d: 21, x: "“Amiel, ano password ng email ko anak?”", u: 1 }], vo = null, vp = 0, vt = null;
 function rvm() {
   $("#vlist").innerHTML = `<div style="background:#f2f2f7;border-radius:30px;padding:14px 16px;display:flex;justify-content:space-between;align-items:center;margin:4px 0 8px;font-weight:600;font-size:15px">Service Provider Voicemail<button class="pill" style="background:#dbe9ff;color:#0a84ff;font-size:14px;padding:8px 12px">Call Service Provider</button></div>` + vms.map((v, i) => `<div class="vr" data-i="${i}">${v.u ? '<i class="ud"></i>' : ""}<div class="tt"><b>${esc(v.n)}</b><span>${fdate(v.t)}<br>00:${p2(v.d)}</span></div><p>${esc(v.x)}</p>${vo === i ? `<div class="vb"><button class="vplay">${vt ? "❚❚" : "▶"}</button><div class="vtr"><i style="width:${vp / v.d * 100}%"></i></div><span>0:${p2(Math.floor(vp))}</span></div>` : ""}</div>`).join("");
   const u = vms.filter(v => v.u).length;
