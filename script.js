@@ -207,11 +207,11 @@ function dAgo(days, hours, minutes) {
 const SEED = [
   { t: dAgo(0, 20, 12), x: "Oyts natatae ako tagal naman matapos\n\n\n- Iww bahu\n }, 
   { t: dAgo(0, 9, 40), x: "Cat names\n\n Kimchi \n Tokyo Athena \nPangpu (Pangpulutan), \n Kitty Duterte\nDumbledore (wow)" },
-  { t: dAgo(2, 21, 5), x: "To do ☑\n\n☑ plate 2 – floor plans\n☐ plate 3 – section drawings\n☐ print sheets at A1\n☐ return T-square to Isa\n☐ email prof abt deadline extension\n☐ finish basswood model base" },
-  { t: dAgo(4, 16, 30), x: "Room measurements\n\n\nroom A 3.60 m × 4.20 m\nceiling height 2.70 m\ndoor 0.90 × 2.10 m\nwindow sill 0.85 m\nwindow 1.50 × 1.20 m\nstair riser 175 mm\nstair tread 250 mm\ncorridor min. 1.20 m\nscale 1:50 → 7.2 cm × 8.4 cm" },
-  { t: dAgo(9, 18, 45), x: "Studio notes\n\n\nsimplify the massing\nmore daylight on north side\ncheck circulation at ground floor\nsection needs figures + entourage" },
-  { t: dAgo(16, 10, 15), x: "Model materials\n\n\nbasswood 3 mm\nchipboard 2 mm\nclear acetate\nwhite PVA glue\nsandpaper 400 grit" },
-  { t: dAgo(23, 12, 0), x: "Things to buy – school supplies\n\n\n• pencils 2H, HB, 2B, 6B\n• tracing paper roll\n• foam board (3 pcs)\n• cutter blades\n• masking tape\n• scale ruler\n• mechanical pencil 0.5\n• black fineliners 0.1 / 0.3 / 0.5\n• glue sticks\n• illustration board" }
+  { t: dAgo(2, 21, 5), x: "To do ☑\n\n☑ hanap inspo\n☐ planning and drafting\n☐ plotting and layout ng board\n☐ architectural plans (fp, elev tas sections)\n☐ finalize boards },
+  { t: dAgo(4, 16, 30), x: "Hindi nagreply lol kinikilig siguro to\n\n\n },
+  { t: dAgo(9, 18, 45), x: "ANO O-ORDERIN\n\n\nMatcha latte seasalt\nHazelnut cappucino\nAlmond croissant\nOreo bliss donut" },
+  { t: dAgo(16, 10, 15), x: "Shake your head and let me know if you hear rocks\n\n\n },
+  { t: dAgo(23, 12, 0), x: "Mga bibilhen ko na naman umay lods\n\n\n• Pencils  HB, 2B, 4B, 6B\n• Tracing paper roll\n• Bainbridge illus\n• Kneadded eraser" }
 ];
 let notes = store.get("notes3", null) || SEED.map((n, i) => ({ id: i + 1, ...n }));
 let nid = null;
